@@ -1,0 +1,42 @@
+{
+  "objects": [
+    {
+      "identifier": "rr/aggregate-mat-ballast",
+      "metadata": {
+        "name": "aggregate-mat-ballast",
+        "description": "Ballast aggregate material.",
+        "tags": [],
+        "credits": ""
+      },
+      "definition": {
+        "kind": "Material",
+        "assetIdentifier": "./aggregate-mat-ballast",
+        "edgeLength": 1,
+        "fields": {
+          "aggregateModelLoadId": "rr/ballast",
+          "aggregateModelBumps": "1,4"
+        },
+        "components": []
+      }
+    },
+    {
+      "identifier": "rr/aggregate-mat-coal",
+      "metadata": {
+        "name": "aggregate-mat-coal",
+        "description": "Coal aggregate material.",
+        "tags": [],
+        "credits": ""
+      },
+      "definition": {
+        "kind": "Material",
+        "assetIdentifier": "./aggregate-mat-coal",
+        "edgeLength": 1,
+        "fields": {
+          "aggregateModelLoadId": "rr/coal",
+          "aggregateModelBumps": "2,3"
+        },
+        "components": []
+      }
+    }
+  ]
+}

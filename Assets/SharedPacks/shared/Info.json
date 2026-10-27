@@ -1,0 +1,17 @@
+{
+  "identifier": "rr/shared",
+  "name": "Shared Assets",
+  "author": "Giraffe Lab LLC",
+  "version": "0.1.0",
+  "license": "Assets Copyright Giraffe Lab LLC; Configuration and scripts CC0",
+  "dependencies": {
+    "required": []
+  },
+  "exports": {
+    "./EnableComponentsPropertyEquals": "Scripts/EnableComponentsPropertyEquals.rl",
+    "./UIExtensions": "Scripts/UIExtensions.rl",
+    "./PaintMap": "Scripts/PaintMap.rl",
+    "./PaintMapRendererGroup": "Scripts/PaintMapRendererGroup.rl",
+    "./PaintMapDecal": "Scripts/PaintMapDecal.rl"
+  }
+}
